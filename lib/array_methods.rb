@@ -17,5 +17,6 @@ while counter  < array.length do
 end
 counter +=1 
 end
+puts ney
 ney
 end
