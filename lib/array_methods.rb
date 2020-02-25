@@ -8,11 +8,13 @@ end
 
 def find_min_value(array)
   counter = 0 
-  ney = [0]
+  ney = array[0]
   
 while counter  < array.length do
   if array[counter] < ney[counter]
-    
+    #if counter = 3 and array[3] = 2 while ney[3] = 5
+    #can you replace ney's value with array?'s value
+    ney[counter] = array[counter]
   ney << array[counter]
 counter +=1 
 end
