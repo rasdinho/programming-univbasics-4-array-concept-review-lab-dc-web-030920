@@ -11,8 +11,8 @@ def find_min_value(array)
   ney = array[0]
   
 while counter  < array.length do
-  if array[counter] < ney[0]
-   
+  if array[counter] < ney
+   puts ney
     ney = array[counter]
 end
 counter +=1 
