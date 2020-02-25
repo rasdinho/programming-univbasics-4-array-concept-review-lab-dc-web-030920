@@ -15,7 +15,6 @@ while counter  < array.length do
     #if counter = 3 and array[3] = 2 while ney[3] = 5
     #can you replace ney's value with array?'s value
     ney[counter] = array[counter]
-  ney << array[counter]
 counter +=1 
 end
 ney
