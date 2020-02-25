@@ -17,6 +17,6 @@ while counter  < array.length do
     ney = array[counter]
 counter +=1 
 end
-ney
 end
+ney
 end
