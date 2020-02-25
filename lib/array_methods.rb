@@ -13,3 +13,4 @@ def find_min_value(array)
 while counter  < array.length do
 counter +=1 
 end
+end
