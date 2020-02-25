@@ -1,5 +1,5 @@
 def find_element_index(array, value_to_find)
-  array.times.length do |conter|
+  array.length.times do |conter|
     puts value_to_find # same as putting "hello world" for length of array
 end
 value_to_find
